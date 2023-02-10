@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "infosyslmited": {
+      "type": "object",
+      "properties": {
+        "tosalesforce": {
+          "type": "object",
+          "properties": {
+            "excelClientId": {
+              "type": "string",
+              "description": ""
+            },
+            "excelClientSecret": {
+              "type": "string",
+              "description": ""
+            },
+            "excelRefreshToken": {
+              "type": "string",
+              "description": ""
+            },
+            "excelRefreshURL": {
+              "type": "string",
+              "description": ""
+            },
+            "workbookIdOrPath": {
+              "type": "string",
+              "description": ""
+            },
+            "worksheetName": {
+              "type": "string",
+              "description": ""
+            },
+            "tableName": {
+              "type": "string",
+              "description": ""
+            },
+            "salesforceBaseURL": {
+              "type": "string",
+              "description": ""
+            },
+            "salesforceClientId": {
+              "type": "string",
+              "description": ""
+            },
+            "salesforceClientSecret": {
+              "type": "string",
+              "description": ""
+            },
+            "salesforceRefreshToken": {
+              "type": "string",
+              "description": ""
+            },
+            "salesforceRefreshURL": {
+              "type": "string",
+              "description": ""
+            },
+            "convertedStatus": {
+              "type": "string",
+              "description": ""
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "excelClientId",
+            "excelClientSecret",
+            "excelRefreshToken",
+            "excelRefreshURL",
+            "workbookIdOrPath",
+            "worksheetName",
+            "tableName",
+            "salesforceBaseURL",
+            "salesforceClientId",
+            "salesforceClientSecret",
+            "salesforceRefreshToken",
+            "salesforceRefreshURL",
+            "convertedStatus"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
